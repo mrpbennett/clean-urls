@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <div class="container mx-auto">
-            <h1 class="text-center font-black text-4xl my-6">Beautify Urls</h1>
+            <h1 class="text-center font-black text-4xl my-6">URL Clean Up</h1>
             <p class="my-6">
                 Make your URLs beautiful again, with a click of a button! Paste
                 your ugly domains into the text area below, click the beautify
@@ -44,7 +44,7 @@
                     </button>
                 </div>
                 <div>
-                    <label for="beautifydomains">Beautiful Domains</label>
+                    <label for="beautifydomains">Very Clean Domains</label>
                     <textarea
                         class="border rounded w-full p-4 mb-2"
                         id="beautifulTextArea"
