@@ -150,10 +150,10 @@
                 document.execCommand('copy');
                 this.toggleCopy();
             },
-            // refesh() {
-            //     this.uglyDomains[0].reset();
-            //     this.beautifulDomains[0].reset();
-            // },
+            refesh() {
+                this.uglyDomains[0].reset();
+                this.beautifulDomains[0].reset();
+            },
             toggleCopy() {
                 this.copyButton.copied = !this.copyButton.copied;
                 this.copyButton.text = !this.copyButton.copied
